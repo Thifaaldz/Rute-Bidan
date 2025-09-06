@@ -41,41 +41,25 @@ yaml
 Salin kode
 
 ---
+## 📊 Data Jaringan Jalan (GeoJSON)
 
-## ⚙️ Instalasi & Menjalankan
+File **`Jaringan_jalanan_indonesia.geojson`** tidak disertakan dalam repo karena ukurannya melebihi batas GitHub (>100 MB).  
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/repo-rute-bidan.git
-   cd repo-rute-bidan
-Install dependencies:
+➡️ Kamu bisa **mengunduh data shapefile jaringan jalan (SHP)** dari situs berikut:  
+👉 [Download Shapefile Jaringan Jalan Indonesia](https://www.indonesia-geospasial.com/2024/12/download-shapefile-jaringan-jalan.html)  
 
-bash
-Salin kode
-pip install -r requirements.txt
-Jalankan aplikasi:
+Setelah diunduh, kamu bisa mengonversi SHP menjadi GeoJSON dengan tools seperti:  
+- [QGIS](https://qgis.org/)  
+- [GDAL/ogr2ogr](https://gdal.org/programs/ogr2ogr.html)  
+- Python `geopandas`  
 
-bash
-Salin kode
-streamlit run app.py
-Buka browser ke: http://localhost:8501
+---
 
-📊 Data Jaringan Jalan (GeoJSON)
-File Jaringan_jalanan_indonesia.geojson tidak disertakan dalam repo karena ukurannya melebihi batas GitHub (>100 MB).
+## 🔧 Teknologi yang Digunakan
+- [Streamlit](https://streamlit.io/)  
+- [Pandas](https://pandas.pydata.org/)  
+- [Folium](https://python-visualization.github.io/folium/)  
+- [GeoJSON](https://geojson.org/)  
+- Algoritma **Dijkstra** untuk rute terdekat  
 
-Kamu bisa mengunduh data shapefile jaringan jalan (dengan format SHP) dari situs Indonesia-Geospasial:
-👉 Download Shapefile Jaringan Jalan Indonesia 
-INDONESIA GEOSPASIAL
-
-Setelah diunduh, kamu bisa mengonversi SHP menjadi GeoJSON dengan tools seperti ogr2ogr, geopandas, atau QGIS.
-
-🔧 Teknologi yang Digunakan
-Streamlit
-
-Pandas
-
-Folium
-
-GeoJSON
-
-Algoritma Dijkstra untuk rute terdekat# Rute-Bidan
+---
