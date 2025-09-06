@@ -22,7 +22,7 @@ Aplikasi ini meniru fungsi sederhana seperti **Google Maps**, tapi fokus pada la
 ## 📸 Screenshot
 Contoh tampilan aplikasi di browser:
 
-![Contoh Peta Rute](images/screenshot.png)
+![Contoh Peta Rute](images/image.png)
 
 > Letakkan screenshot aplikasi kamu di folder `images/` dengan nama `screenshot.png`.
 
