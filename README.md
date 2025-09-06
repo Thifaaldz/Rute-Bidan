@@ -72,14 +72,14 @@ venv\Scripts\activate
 ## 3️⃣ Install Dependency
 pip install -r requirements.txt
 
-### 4️⃣ Siapkan Data
-### - bidan_points.csv sudah ada di folder repo
-### - Jaringan_jalanan_indonesia.geojson:
-###   Unduh SHP dari: 
-###   https://www.indonesia-geospasial.com/2024/12/download-shapefile-jaringan-jalan.html
-###   Kemudian konversi ke GeoJSON menggunakan QGIS / GDAL / geopandas
-###   Simpan hasilnya di folder repo dengan nama:
-###   Jaringan_jalanan_indonesia.geojson
+## 4️⃣ Siapkan Data
+ - bidan_points.csv sudah ada di folder repo
+ - Jaringan_jalanan_indonesia.geojson:
+##   Unduh SHP dari: 
+ - https://www.indonesia-geospasial.com/2024/12/download-shapefile-jaringan-jalan.html
+ - Kemudian konversi ke GeoJSON menggunakan QGIS / GDAL / geopandas
+ -  Simpan hasilnya di folder repo dengan nama:
+ -   Jaringan_jalanan_indonesia.geojson
 
 ## 5️⃣ Jalankan Aplikasi
 streamlit run app.py
