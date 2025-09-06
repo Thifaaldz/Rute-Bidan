@@ -84,8 +84,8 @@ pip install -r requirements.txt
 ## 5️⃣ Jalankan Aplikasi
 streamlit run app.py
 
-## Browser akan terbuka otomatis di http://localhost:8501
-## Masukkan latitude/longitude dan pilih bidan tujuan untuk melihat rute
+### Browser akan terbuka otomatis di http://localhost:8501
+###  Masukkan latitude/longitude dan pilih bidan tujuan untuk melihat rute
 
 ---
 
