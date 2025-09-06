@@ -31,13 +31,14 @@ Contoh tampilan aplikasi di browser:
 ## 📂 Struktur Folder
 
 Rute-Terdekat-Bidan/
-├── app.py
-├── bidan_points.csv
-├── Jaringan_jalanan_indonesia.geojson   # Tidak disimpan di GitHub (karena >100 MB)
-├── requirements.txt
-├── README.md
-└── images/
-    └── screenshot.png
+    app.py
+    bidan_points.csv
+    Jaringan_jalanan_indonesia.geojson   # Tidak disimpan di GitHub (>100 MB)
+    requirements.txt
+    README.md
+    images/
+        screenshot.png
+
 
 
 ---
@@ -55,36 +56,36 @@ Setelah diunduh, kamu bisa mengonversi SHP menjadi GeoJSON dengan tools seperti:
 
 ---
 
-# 1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 git clone https://github.com/username/Rute-Terdekat-Bidan.git
 cd Rute-Terdekat-Bidan
 
-# 2️⃣ Buat Virtual Environment (Opsional tapi direkomendasikan)
-# Linux / MacOS
+## 2️⃣ Buat Virtual Environment (Opsional tapi direkomendasikan)
+## Linux / MacOS
 python3 -m venv venv
 source venv/bin/activate
 
-# Windows
+## Windows
 python -m venv venv
 venv\Scripts\activate
 
-# 3️⃣ Install Dependency
+## 3️⃣ Install Dependency
 pip install -r requirements.txt
 
-# 4️⃣ Siapkan Data
-# - bidan_points.csv sudah ada di folder repo
-# - Jaringan_jalanan_indonesia.geojson:
-#   Unduh SHP dari: 
-#   https://www.indonesia-geospasial.com/2024/12/download-shapefile-jaringan-jalan.html
-#   Kemudian konversi ke GeoJSON menggunakan QGIS / GDAL / geopandas
-#   Simpan hasilnya di folder repo dengan nama:
-#   Jaringan_jalanan_indonesia.geojson
+### 4️⃣ Siapkan Data
+### - bidan_points.csv sudah ada di folder repo
+### - Jaringan_jalanan_indonesia.geojson:
+###   Unduh SHP dari: 
+###   https://www.indonesia-geospasial.com/2024/12/download-shapefile-jaringan-jalan.html
+###   Kemudian konversi ke GeoJSON menggunakan QGIS / GDAL / geopandas
+###   Simpan hasilnya di folder repo dengan nama:
+###   Jaringan_jalanan_indonesia.geojson
 
-# 5️⃣ Jalankan Aplikasi
+## 5️⃣ Jalankan Aplikasi
 streamlit run app.py
 
-# Browser akan terbuka otomatis di http://localhost:8501
-# Masukkan latitude/longitude dan pilih bidan tujuan untuk melihat rute
+## Browser akan terbuka otomatis di http://localhost:8501
+## Masukkan latitude/longitude dan pilih bidan tujuan untuk melihat rute
 
 ---
 
